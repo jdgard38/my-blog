@@ -24,8 +24,8 @@ description: "Change the description so that it describes your blog"
 baseurl: "my-blog" # the name of the repository 
 url: "https://jdgard38.github.io" #  change this to "https://<your-github-username>.github.io"
 image: /assets/images/headerimg.jpg
-author: Your name
-copyright: ABCD # Your initials or name or what you want the copyright to be.  Leave empty for no copyright
+author: JD Gardner
+copyright: JDG # Your initials or name or what you want the copyright to be.  Leave empty for no copyright
 footer_description: 
 
 
