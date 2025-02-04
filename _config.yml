@@ -18,9 +18,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Let's see the Data 
+title: JD Gardner stat 386 
 email: jdgard33@byu.edu 
-description: "As a data analyst we want to see the data, so lets use the right tools to effectively see it." 
+description: "A guide to beginning data science." 
 baseurl: "my-blog" # the name of the repository 
 url: "https://jdgard38.github.io" #  change this to "https://<your-github-username>.github.io"
 image: /assets/images/headerimg.jpg
