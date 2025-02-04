@@ -18,9 +18,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: JD's Stat 386 
+title: Let's see the Data 
 email: jdgard33@byu.edu 
-description: "Change the description so that it describes your blog" 
+description: "As a data analyst we want to see the data, so lets use the right tools to effectively see it." 
 baseurl: "my-blog" # the name of the repository 
 url: "https://jdgard38.github.io" #  change this to "https://<your-github-username>.github.io"
 image: /assets/images/headerimg.jpg
@@ -30,16 +30,16 @@ footer_description:
 
 
 # Social media users names.  Leave fields blank that you don't want displayed
-twitter_username: 386student
-github_username:  386student
-linkedin_username: 386student
+twitter_username: 
+github_username:  jdgard38
+linkedin_username: JD Gardner
 dribbble_username: 
-facebook_username: 386student
+facebook_username: JD Gardner
 flickr_username:
 instagram_username: 
 pinterest_username:
 youtube_username: 
-googleplus_username: 386student
+googleplus_username: 
 
 plugins:
   - jekyll-feed
