@@ -3,7 +3,7 @@ layout: post
 title:  "The First Post"
 author: JD Gardner
 description: A sample post with instructions and tips on how to create a new blog post.   
-image: "/assets/images/good.jpg"
+image: "/assets/images/diving-horse.jpg"
 ---
 
 ## Steps for creating a new post.  
