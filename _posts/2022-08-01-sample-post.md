@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "How to create a blog post"
-author: Shannon Tass
+title:  "The First Post"
+author: JD Gardner
 description: A sample post with instructions and tips on how to create a new blog post.   
-image: "/assets/images/image5.jpg"
+image: "/assets/images/good.jpg"
 ---
 
 ## Steps for creating a new post.  
