@@ -7,7 +7,7 @@ image: "/assets/images/diving-horse.jpg"
 ---
 
 ## Steps for creating a Streamlit app.  
-
+First thing you want to do when creating a Streamlit app is getting your dataset cleaned and prepped for exploratory data analysis. To do this I scraped a website with data on college football teams. For more information on this refer back to my last blog post. [web scrapping blog post](https://jdgard38.github.io/my-blog/2025/03/14/Football.html)
 
 
 
