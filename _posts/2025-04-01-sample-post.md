@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "The First Post"
+title:  "Streamlit: a new football app"
 author: JD Gardner
-description: A sample post with instructions and tips on how to create a new blog post.   
+description: Come take a look at some football data on an interactive app.   
 image: "/assets/images/diving-horse.jpg"
 ---
 
