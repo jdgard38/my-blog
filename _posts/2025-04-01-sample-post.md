@@ -6,13 +6,12 @@ description: Come take a look at some football data on an interactive app.
 image: "/assets/images/diving-horse.jpg"
 ---
 
-## Steps for creating a new post.  
+## Steps for creating a Streamlit app.  
 
-* Create a new file in the `_posts` folder called `YYYY-MM-DD-post-name.md`, where YYYY is the year (2023), MM numeric month (01-12), and DD is the numeric day of the month (01-31).  The `post-name` is a short name for the new post with `-` between words.  **You must use this name convention for all new posts.**  
 
-*  Make the YML heading.  All pages in the site need to start with a YML heading.  For posts you should use the following header:
-```
----
+
+
+# from here down i can delete
 layout: post
 title:  "Post Name"
 author: Your name
@@ -106,20 +105,3 @@ Here are some things to keep in mind if your blog appearance isn't going as you 
 
 **Problem:  The blog post that I created isn't appearing**
 
-Possible Solutions: 
-  - Check your date. GitHub pages won't display blog posts with future dates
-  - Check the yaml header.  If there are any special characters in any of the fields, you need to use quotes around the entire field entry.  The most common culprit is the description.  If you're having trouble, try putting quotes around the entire description
-
----
-
-**Problem:  I know that I made changes to a blog post but the changes aren't appearing**
-
-Possible Solution:
-  - Check the header.  If there are any special characters in any of the fields, you need to use quotes around the entire field entry.  The most common culprit is the description.  If you're having trouble, try putting quotes around the entire description.
-
----
-
-**Problem:  My entire blog has weird formatting**
-
-Possible Solution:
-  - Usually this is an address problem.  Double check your url and baseurl in the `_config` file
