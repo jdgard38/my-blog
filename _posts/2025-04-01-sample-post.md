@@ -12,98 +12,19 @@ First thing you want to do when creating a Streamlit app is getting your dataset
 After I have my data collected, I can then do some data analysis and see any trends that might be of note. I then create an excel sheet or a comma seperated values(csv), and upload that to a blank code piece. I use this code piece to get into streamlit using the streamlit library or package from python. 
 ![Header of Code](/assets/images/streamlit_header.png)
 
+## Findings from my Data
+I found data that showed how much teams scored in the first week of the 2022 college football season as a home team. Looking through this data and as seen in the streamlit app[(Team Points Distribution)](https://football38.streamlit.app/), the average score for the home team in this first week was 29.97. This number is 1.97 points above 4 touchdowns, which shows that most teams were scoring around 4 touchdowns during their home opener in the 2022 season. 
 
-# from here down i can delete
-layout: post
-title:  "Post Name"
-author: Your name
-description: Short yet informative description
-image: /assets/images/blog-image.jpg
----
-```
-* For this theme, the layout should stay as `post`.   All the other fields should be updated with the information for your particular blog post.  The blog image should be a `.jpg` or `.png` file that you should add to the folder `assets/images`.  Don't make it too large or the page will take longer to load (500-800 KB is a good size).  Leave the file path as `/assets/images/` in the header area. 
+## My Streamlit app
+The purpose of my app is to allow users the access to get on and find their favorite team or conference and see how well they do at home. With multiple different pages and sliders you can navigate the app to show just your favorite conference and see how one specific team did compared to that. There are 3 seperate taps at the top that show: "Conference Analysis", "Team Points Distribution", and "Week Analysis". These tabs all show a broad graph as well with a "Detailed Team Analysis" graph below so that you can see how one team compares to the rest. 
 
-* Write the body of the blog using markdown.  There are a lot of references for markdown available.  I like the [Markdown Guide](https://www.markdownguide.org) because many of the examples show both the markdown and the html code.  There are separate pages for [basic syntax](https://www.markdownguide.org/basic-syntax/), [extended syntax](https://www.markdownguide.org/extended-syntax/), and a [cheatsheet](https://www.markdownguide.org/cheat-sheet/) for quick reference. 
+## Why Use my App
+My app is very applicable to sports fans, especially college football fans. I will add more data as I get it, and then the app will have even more uses that will show how good college fooball teams have been. For now the app is very useful for looking at how well the home teams do in the first week of the season, and based off my findings looks like majority of the home teams don't have a problem scoring points in their home opener. 
 
-* You can also use html code snippets along with the markdown.  Often, using html will give you a little more control and flexibility as demonstrated below.
+## Ideas for you to use
+I encourage all readers here to find a topic they are interested in and find data you can scrape off the web. When scraping data make sure that you do it in a way that is ethical. One way that I like to do it, is by using an API key. This ensures that the website acknowledges you taking their data and is ok with it. After obtaining your data explore it and find creative ways to display it on a streamlit app your self. You can display data in lots of cool ways and not just the same ways that I demonstrated on [my app.](https://football38.streamlit.app/)
 
-This is a change
----
----
-
-### Links 
-
-To create a link (internal or external), enclose the link text in brackets (e.g., [Statistics Department]) and then follow it immediately with the URL in parentheses (e.g., (https://statistics.byu.edu)).
-
-For example:
-```
-{% raw %}My favorite department at BYU is the [Statistics Department](https://statistics.byu.edu).{% endraw %}
-```
-My favorite department at BYU is the [Statistics Department](https://statistics.byu.edu)
+Until next time football fans! Keep updating your score books and finding ways that you can become a more invested football fan!!
 
 
-If you want external links to open in a separate window, you will need to use html code with `target="_blank"` inside the `a` tag. 
-
-For example:
-```
-My favorite department at BYU is the <a href="https:statistics.byu.edu" target="_blank">Statistics Department</a>
-```
-My favorite department at BYU is the <a href="https:statistics.byu.edu" target="_blank">Statistics Department</a>
-
-
-----
-----
-
-## Internal Links and Files
-
-If you want to have a link that points to another location on your site or if you want to include a file (such as an image or video) you must use the `site.url` and `site.baseurl` variables when making the link reference.  For example, this link to pointing to the [About]({{site.url}}/{{site.baseurl}}/about) page is coded as:
-```
-[About]({% raw %}{{site.url}}/{{site.baseurl}}/about){% endraw %}
-```
-Paths to files should also be referenced with the `site.url` and `site.baseurl` variables (see the section on **Adding Images**).
-
----
----
-
-## Adding Images
-*In the examples below, if your image ends with `.png` or `.JPEG`, use the appropriate extension instead of `.jpg`.*  
-
-Images for the blog will generally but put into the `assets/images` folder.  (You can also create a subfolder for images, but you will need to include the subfolder name in the reference link.) 
-
-Markdown syntax for including images is `![Fig Name](path/to/image)`.  For example:
-```
-{% raw %}![Figure]({{site.url}}/{{site.baseurl}}/assets/images/image_name.jpg){% endraw %}
-```
-![Figure]({{site.url}}/{{site.baseurl}}/assets/images/image5.jpg)
-
----
----
-
-### Resizing images
-
-The image I added in the previous section seems a bit large for this post.  Unfortunately,
-there isn't a good way to resize images with markdown, so if you need to resize an image, use html instead of markdown and specify the width in the style parameter as follows:
-
-```
-{% raw %}<img src="{{site.url}}/{{site.baseurl}}/assets/images/image_name.jpg" alt="" style="width:300px;"/>{% endraw %}
-```
-
-(Example with width set to 300 pixels)
-<img src="{{site.url}}/{{site.baseurl}}/assets/images/image5.jpg" alt="" style="width:300px;"/>
-
-
-(Example with width set to 100 pixels)
-<img src="{{site.url}}/{{site.baseurl}}/assets/images/image5.jpg" alt="" style="width:100px;"/>
-
-
-
----
----
----
-
-## Troubleshooting
-
-Here are some things to keep in mind if your blog appearance isn't going as you planned:
-
-**Problem:  The blog post that I created isn't appearing**
 
