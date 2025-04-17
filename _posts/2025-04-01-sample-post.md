@@ -3,7 +3,7 @@ layout: post
 title:  "Streamlit: a new football app"
 author: JD Gardner
 description: Come take a look at some football data on an interactive app.   
-image: "/assets/images/diving-horse.jpg"
+image: "/assets/images/Football.jpg"
 ---
 
 ## Steps for creating a Streamlit app.  
